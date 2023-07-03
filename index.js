@@ -21,7 +21,7 @@ const foodItem= [
     id: 3,
     name: 'Egg Biryani',
     category : 'biryani',
-    rating : 4.3,
+    rating : 4.0,
     price: 18,
     img: 'images/biryani/egg-biryani.jpeg',
     quantity: 1
@@ -39,7 +39,7 @@ const foodItem= [
     id: 5,
     name: 'Mutton Biryani',
     category : 'biryani',
-    rating : 4.3,
+    rating : 5.3,
     price: 10,
     img: 'images/biryani/hyd-Mutton-Biryani.jpg',
     quantity: 1
@@ -48,7 +48,7 @@ const foodItem= [
     id: 6,
     name: 'Kamrupi Biryani',
     category : 'biryani',
-    rating : 4.3,
+    rating : 4.1,
     price: 12,
     img: 'images/biryani/kamrupi-biryani.jpg',
     quantity: 1
@@ -57,7 +57,7 @@ const foodItem= [
     id: 7,
     name: 'Kashmiri Biryani',
     category : 'biryani',
-    rating : 4.3,
+    rating : 4.2,
     price: 13,
     img: 'images/biryani/kashmiri.pulao.jpg',
     quantity: 1
@@ -84,7 +84,7 @@ const foodItem= [
     id: 10,
     name: 'Chicken Roast',
     category : 'chicken',
-    rating : 4.3,
+    rating : 4.5,
     price: 11,
     img: 'images/chicken/Chicken_roast.jpg',
     quantity: 1
@@ -102,7 +102,7 @@ const foodItem= [
     id: 12,
     name: 'Chicken Do Pyaza',
     category : 'chicken',
-    rating : 4.3,
+    rating : 4.1,
     price: 14,
     img: 'images/chicken/Chicken-do-Pyaza.jpg',
     quantity: 1
@@ -111,7 +111,7 @@ const foodItem= [
     id: 13,
     name: 'Chicken Masala',
     category : 'chicken',
-    rating : 4.3,
+    rating : 4.9,
     price: 12,
     img: 'images/chicken/Chicken-Masala.jpeg',
     quantity: 1
@@ -120,7 +120,7 @@ const foodItem= [
     id: 14,
     name: 'Handi Chicken',
     category : 'chicken',
-    rating : 4.3,
+    rating : 4.8,
     price: 17,
     img: 'images/chicken/Handi-chicken.jpg',
     quantity: 1
@@ -138,7 +138,7 @@ const foodItem= [
     id: 16,
     name: 'Matar Paneer',
     category : 'paneer',
-    rating : 4.3,
+    rating : 4.2,
     price: 15,
     img: 'images/paneer/Matar-Paneer.jpg',
     quantity: 1
@@ -157,7 +157,7 @@ const foodItem= [
     id: 18,
     name: 'Paneer Butter Masala',
     category : 'paneer',
-    rating : 4.3,
+    rating : 4.7,
     price: 15,
     img: 'images/paneer/paneer-butter-masala.jpg',
     quantity: 1
@@ -167,7 +167,7 @@ const foodItem= [
     id: 19,
     name: 'Paneer Do Pyaza',
     category : 'paneer',
-    rating : 4.3,
+    rating : 4.9,
     price: 12,
     img: 'images/paneer/Paneer-Do-Pyaza.jpg',
     quantity: 1
@@ -186,7 +186,7 @@ const foodItem= [
     id: 21,
     name: 'Paneer Lababdar',
     category : 'paneer',
-    rating : 4.3,
+    rating : 4.2,
     price: 7,
     img: 'images/paneer/paneer-lababdar.jpg',
     quantity: 1
@@ -214,7 +214,7 @@ const foodItem= [
     id: 24,
     name: 'Veg Jalfrezi',
     category : 'vegetable',
-    rating : 4.3,
+    rating : 4.2,
     price: 7,
     img: 'images/vegetable/VEG-JALFREZI.jpg',
     quantity: 1
@@ -223,7 +223,7 @@ const foodItem= [
     id: 25,
     name: 'Veg Biryani',
     category : 'vegetable',
-    rating : 4.3,
+    rating : 4.1,
     price: 5,
     img: 'images/vegetable/vegetable-biryani.jpg',
     quantity: 1
@@ -268,7 +268,7 @@ const foodItem= [
     id: 30,
     name: 'Momos',
     category : 'chinese',
-    rating : 4.3,
+    rating : 4.7,
     price: 8,
     img: 'images/chinese/cabbage-momos-.jpg',
     quantity: 1
@@ -277,7 +277,7 @@ const foodItem= [
     id: 31,
     name: 'Chicken Manchurian',
     category : 'chinese',
-    rating : 4.3,
+    rating : 4.8,
     price: 7,
     img: 'images/chinese/ChickenManchurian.jpg',
     quantity: 1
@@ -286,7 +286,7 @@ const foodItem= [
     id: 32,
     name: 'Chili Chicken',
     category : 'chinese',
-    rating : 4.3,
+    rating : 4.9,
     price: 5,
     img: 'images/chinese/Chili-Chicken.jpg',
     quantity: 1
@@ -304,7 +304,7 @@ const foodItem= [
     id: 34,
     name: 'Spring Roll',
     category : 'chinese',
-    rating : 4.3,
+    rating : 4.5,
     price: 14,
     img: 'images/chinese/spring-rolls.jpg',
     quantity: 1
@@ -322,7 +322,7 @@ const foodItem= [
     id: 36,
     name: 'Fried Rice',
     category : 'chinese',
-    rating : 4.3,
+    rating : 4.9,
     price: 8,
     img: 'images/chinese/veg-fried-rice.jpg',
     quantity: 1
@@ -331,7 +331,7 @@ const foodItem= [
     id: 37,
     name: 'Butter Masala Dosa',
     category : 'south-indian',
-    rating : 4.3,
+    rating : 4.7,
     price: 18,
     img: 'images/south indian/Butter-Masala-Dosa.png',
     quantity: 1
@@ -473,7 +473,7 @@ const foodItem= [
 }
 ]
 
-function displayItems(){
+function displayAllItems(){
     var biryani = document.getElementById('biryani');
     var paneer =  document.getElementById('paneer');;
     var chicken =  document.getElementById('chicken');
@@ -776,7 +776,7 @@ function displayItems(){
 
     })
 }
-displayItems();
+displayAllItems();
 
 
 const rightMenuData= [...new Map(foodItem.map(item=> [item['category'],item])).values()];

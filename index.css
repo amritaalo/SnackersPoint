@@ -14,7 +14,8 @@ body{
 }
 .container{
     display: grid;
-    grid-template-columns: 250px 1fr 300px;
+    /* grid-template-columns: 250px 1fr 300px; */
+    grid-template-columns: 230px 1fr 230px;
     min-height: 100vh;
     min-height: -webkit-fill-available;
     overflow: hidden;
@@ -79,24 +80,13 @@ body{
 ::-webkit-scrollbar{
     display: none;
 }
-#header .address{
+#header {
     font-size: 20px;
     
 }
 #map{
     font-size: 25px;
     color: red;
-}
-.your-address{
-    border: 1px solid indianred;
-    color: indianred;
-    padding: 5px 10px;
-    border-radius: 5px;
-    width: 150px;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    cursor: pointer;
 }
 .add-box i{
     font-size: 20px;
@@ -147,7 +137,7 @@ body{
 }
 #item-card{
     width: 180px;
-    height: 220px;
+    height: 250px;
     padding: 10px;
     margin: 10px;
     display: inline-block;
@@ -269,7 +259,6 @@ color: white;
     text-align: center;
     margin: 40px auto;
     border-radius: 5px;
-    background: white;
     padding: 10px 20px;
 }
 #checkout p{
@@ -277,7 +266,7 @@ color: white;
     float: left;
 }
 #total-price,#total-item{
-    font-size: 25px;
+    font-size: 20px;
     color: indianred;
 }
 #delievery{
@@ -321,7 +310,7 @@ color: white;
 .list-name{
     font-size: 20px;
     margin: 0 10px;
-    text-decoration: none;
+    text-decoration: none !important;
     text-transform: capitalize;
     color: rgb(94, 43, 43);
 }
@@ -332,9 +321,6 @@ color: white;
     top: 0;
     background: whitesmoke;
 }
-#mobile-view{
-    display: none;
-}
 #biryani{
     margin-top: 10px;
 }
@@ -344,19 +330,6 @@ color: white;
 @media screen and (max-width : 800px) and (-webkit-min-device-pixel-ratio: 2){
     .container{
         display: none;
-    }
-    #mobile-view{
-        display: grid;
-        grid-template-rows: 120px 1fr 50px;
-        height: 100%;
-        overflow: hidden;
-        
-        width: 100vw;
-    }
-    .mobile-top{
-        padding: 5px 15px;
-        background: white;
-        z-index: 1;
     }
     .item-container{
         overflow-y: scroll;
@@ -370,7 +343,7 @@ color: white;
         width: 90px;
         height: 70px;
     }
-    .logo-box .your-address{
+    .logo-box {
         font-size: 18px;
         width: 150px;
         color: crimson;
@@ -436,21 +409,6 @@ color: white;
     #food-items{        
         padding: 5px 10px;
     }
-
-    .mobile-footer{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 5px 15px;
-        background: white;
-        border-top: 1px solid rgb(219, 219, 219);
-    }
-    .mobile-footer{
-        color: indianred;
-        text-transform: uppercase;
-        font-size: 16px;
-        position: static;
-    }
     #category-name{
         font-size: 25px;
         font-family: 'Aclonica', sans-serif;
@@ -511,9 +469,6 @@ color: white;
 }
 
 @media screen and (max-width : 400px) and (-webkit-min-device-pixel-ratio: 2){
-    #mobile-view{
-        min-height: -webkit-fill-available;
-    }
     #item-card{
         height: 200px;
         width: 140px;
